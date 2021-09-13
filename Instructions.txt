@@ -1,0 +1,19 @@
+Installation
+
+pip install lsHotword
+pip install pydub
+
+
+Afer installing it run commad 
+
+python HTrainer.py --input 16KMono --epochs 200
+
+After that you can test it
+
+import ls
+#type any code 
+#call your Hotword like this
+
+ls.lsHotword_loop()           #code stoped at this line and resume if you
+                              #speak your Wake Word
+
